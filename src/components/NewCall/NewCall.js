@@ -6,6 +6,7 @@ import {Container} from 'react-bootstrap'
 import Form from '../Form/Form'
 import InstantVisioLogo from '../../styles/assets/images/Favicon_InstantVisio_Titre.png'
 import './NewCall.css'
+import Footer from '../Footer'
 
 const NewCall = () => {
     const [loading, setLoading] = useState(false)
@@ -63,6 +64,9 @@ const NewCall = () => {
                         }
                     </div>
                 </Container>
+            </div>
+            <div className="NewCall-footer">
+                <Footer />
             </div>
         </>
     )
